@@ -1,10 +1,10 @@
-import { Post, State } from '../utils/interface';
+import { State } from '../utils/interface';
 
 export const getPostsSelector = (parametr?: string, value?: string) =>  {
   return value 
   ? (state: State) => {
-    return state.posts.filter(post => post[parametr].toLowerCase().replace(/\n/g, ' ')
-    .includes(value.toLowerCase()))
+    return state.posts.filter(post => post[parametr].toLowerCase()
+    .replace(/\n/g, ' ').includes(value.toLowerCase()))
   }
   : (state: State) => state.posts
 };

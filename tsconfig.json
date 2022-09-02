@@ -5,6 +5,6 @@
   },
   "include": [
     "./src",
-    "additional.d.ts",
-  ]
+    "additional.d.ts", "tsconfig.eslint.json",
+  ],
 }
