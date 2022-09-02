@@ -1,0 +1,16 @@
+.UserList {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  &__title {
+    margin: 25px;
+    padding-top: 25px;
+    text-align: center;
+    font-weight: bold
+  }
+}

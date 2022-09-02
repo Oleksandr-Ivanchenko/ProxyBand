@@ -1,0 +1,12 @@
+.Search {
+  margin: 30px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+
+  &__inputs {
+    display: flex;
+    gap: 20px;
+  }
+}
